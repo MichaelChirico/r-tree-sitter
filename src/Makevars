@@ -1,7 +1,8 @@
 PKG_CFLAGS = \
         -I./tree-sitter/lib/include \
         -I./tree-sitter/lib/src \
-        -I./rlang
+        -I./rlang \
+        $(C_VISIBILITY)
 
 tree-sitter-files = \
         tree-sitter/lib/src/lib.o
